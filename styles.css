@@ -63,7 +63,7 @@ form li + li {
   margin: auto;
   padding: 15px;
   width: 100%;
-  background-color: #DCD7CF;
+  background-color: #8a97a0;
   margin-bottom: 20px;
 }
 
@@ -76,9 +76,8 @@ text-align: right;
 input,
 textarea {
 font: 1em sans-serif;
-width: 300px;
+width: 100%;
 border: 1px solid #999;
-color: #8a97a0;
 }
 
 input:focus,
