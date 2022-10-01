@@ -64,7 +64,6 @@ form li + li {
   padding: 15px;
   width: 100%;
   background-color: #DCD7CF;
-  color: #8a97a0;
   margin-bottom: 20px;
 }
 
@@ -79,6 +78,7 @@ textarea {
 font: 1em sans-serif;
 width: 300px;
 border: 1px solid #999;
+color: #8a97a0;
 }
 
 input:focus,
