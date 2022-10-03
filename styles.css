@@ -142,13 +142,18 @@ margin-bottom: 8px;
     width: 100%;
   }
 
+  label[for=zip] {
+width: 50%
+  }
+
 label {
   width: 45%;
   text-align: left;
 }
 
+
 input#zip {
-  max-width: 70%;
+  max-width: 50%;
 }
 textarea#hear {
   width: 100%;
