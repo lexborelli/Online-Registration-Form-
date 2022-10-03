@@ -71,8 +71,8 @@ form li + li {
 input[type=text],
 input[type=email],
 input[type=tel],
-input[type=state],
-input[type=number] {
+input[type=number],
+#state {
 width: 100%;
 box-sizing: border-box;
 background-color: #D3D3D3;
@@ -137,8 +137,8 @@ margin-bottom: 8px;
   input[type=text],
   input[type=email],
   input[type=tel],
-  input[type=state],
-  input[type=number] {
+  input[type=number],
+  #state {
     width: 100%;
   }
 
@@ -151,7 +151,7 @@ input#zip {
   max-width: 50%;
 }
 textarea#hear {
-  width: 100%; 
+  width: 100%;
 }
 
 }
