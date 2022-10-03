@@ -142,9 +142,6 @@ margin-bottom: 8px;
     width: 100%;
   }
 
-  label[for=zip] {
-width: 50%
-  }
 
 label {
   width: 45%;
@@ -152,8 +149,8 @@ label {
 }
 
 
-input#zip {
-  max-width: 50%;
+input[type=number] {
+  max-width: 70%;
 }
 textarea#hear {
   width: 100%;
