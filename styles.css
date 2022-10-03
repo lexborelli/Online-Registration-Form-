@@ -64,6 +64,7 @@ form li + li {
   padding: 15px;
   width: 100%;
   margin-bottom: 20px;
+  color: #8A97A0
   background-color: white;
 }
 
@@ -74,8 +75,8 @@ input[type=state],
 input[type=number] {
 width: 100%;
 box-sizing: border-box;
-background-color: #8A97A0;
-padding: 12px 20px; 
+background-color: #D3D3D3;
+padding: 12px 20px;
 }
 
 label {
@@ -106,5 +107,33 @@ textarea {
 }
 
 button {
-  margin-left: 0.5em;
+  color: #fff;
+  padding: 19px 30px 19px 30px;
+  background-color: #20B2AA;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+  width: 100%;
+}
+
+fieldset {
+margun-bottom: 30px;
+border: none;
+}
+
+legend {
+margin-bottom: 10px;
+}
+
+label {
+display: block;
+margin-bottom: 8px;
+}
+
+/*media queries*/
+
+@media (max-width: 768px) {
+
+
+
 }
