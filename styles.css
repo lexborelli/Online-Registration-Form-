@@ -64,7 +64,18 @@ form li + li {
   padding: 15px;
   width: 100%;
   margin-bottom: 20px;
-  background-color: white; 
+  background-color: white;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=state],
+input[type=number] {
+width: 100%;
+box-sizing: border-box;
+background-color: #8A97A0;
+padding: 12px 20px; 
 }
 
 label {
