@@ -103,6 +103,26 @@ background-color: #D3D3D3;
 padding: 12px 20px;
 }
 
+ label[for=html_news],
+ label[for=css_news],
+ label[for=javascript_news],
+ label[for=html_format],
+ label[for=plain_text],
+ label[for=hear],
+#html_news,
+#css_news,
+#javascript_news,
+#html_format,
+#plain_text,
+#hear {
+display: flex;
+flex-wrap: nowrap;
+}
+
+.topics {
+  text-align: center;
+}
+
 label {
 display: block;
 width: 90px;
@@ -141,7 +161,7 @@ button {
 }
 
 fieldset {
-margun-bottom: 30px;
+margin-bottom: 30px;
 border: none;
 }
 
@@ -149,10 +169,6 @@ legend {
 margin-bottom: 10px;
 }
 
-label {
-display: block;
-margin-bottom: 8px;
-}
 
 /*media queries*/
 
