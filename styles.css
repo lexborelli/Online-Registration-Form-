@@ -1,9 +1,39 @@
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container * {
+box-sizing: border-box;
+}
+
 form {
 margin: 10px auto;
 max-width: 100%;
 padding: 10px auto;
 border-radius: 8px;
+}
+
+.contact {
+  margin: 0 auto;
+}
+
+.contact,
+.inner {
+list-style-type: none;
+}
+
+.contact li,
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.inner {
+  padding: 0 9px;
+  justify-content: space-between;
 }
 
 header {
@@ -49,12 +79,6 @@ h2 {
 padding-top: 15px;
 text-align: right;
 font-weight: bold;
-}
-
-ul {
-list-style: none;
-padding: 0;
-margin: 0;
 }
 
 form li + li {
@@ -144,7 +168,7 @@ margin-bottom: 8px;
 
 
 label {
-  width: 45%;
+  width: 70%;
   text-align: left;
 }
 
