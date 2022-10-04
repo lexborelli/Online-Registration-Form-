@@ -117,7 +117,7 @@ padding: 12px 20px;
 #hear {
 display: flex;
 flex-wrap: nowrap;
-flex-direction: column; 
+flex-direction: column;
 }
 
 .topics {
@@ -125,10 +125,12 @@ flex-direction: column;
 }
 
 label {
-display: block;
+display: flex;
+flex-direction: column-reverse;
 width: 90px;
 text-align: right;
 }
+
 
 input,
 textarea {
