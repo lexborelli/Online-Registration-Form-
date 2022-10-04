@@ -117,6 +117,7 @@ padding: 12px 20px;
 #hear {
 display: flex;
 flex-wrap: nowrap;
+flex-direction: column; 
 }
 
 .topics {
