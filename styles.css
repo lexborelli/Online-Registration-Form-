@@ -166,6 +166,9 @@ margin-bottom: 8px;
     width: 100%;
   }
 
+  .topics {
+    text-align: center;
+  }
 
 label {
   width: 70%;
