@@ -37,7 +37,7 @@ list-style-type: none;
 
 .inner {
   padding: 0 9px;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 
