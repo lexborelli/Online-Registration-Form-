@@ -106,10 +106,7 @@ padding: 12px 20px;
  label[for=javascript_news],
  label[for=html_format],
  label[for=plain_text],
-  label[for=hear] {
-      display: none; 
-  }
-
+ label[for=hear], 
 #html_news,
 #css_news,
 #javascript_news,
