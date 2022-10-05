@@ -31,7 +31,7 @@ list-style-type: none;
 }
 
 .inner {
-  padding: 0 9px;
+  padding: 20px 0 20px 0;
 }
 
 header {
@@ -106,7 +106,7 @@ padding: 12px 20px;
  label[for=javascript_news],
  label[for=html_format],
  label[for=plain_text],
- label[for=hear], 
+ label[for=hear],
 #html_news,
 #css_news,
 #javascript_news,
