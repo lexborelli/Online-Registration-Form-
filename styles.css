@@ -26,15 +26,11 @@ list-style-type: none;
 
 .contact li,
 .inner {
-  display: flex;
-  flex-wrap: wrap;
   align-items: center;
 }
 
 .inner {
   padding: 0 9px;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 header {
@@ -116,18 +112,14 @@ padding: 12px 20px;
 #html_format,
 #plain_text,
 #hear {
-display: flex;
-flex-wrap: nowrap;
-flex-direction: column;
+width: 100%;
 }
 
 .topics {
   text-align: center;
 }
 
-label {
-  display: flex;
-  width: 90px;
+
   text-align: right;
 }
 
@@ -191,7 +183,6 @@ margin-bottom: 10px;
   form,
   div {
     display: flex;
-   flex-direction: column;
   }
 
   div {
@@ -222,6 +213,7 @@ input[type=number] {
 }
 textarea#hear {
   width: 100%;
+  padding-bottom: 40px;
 }
 
 }
