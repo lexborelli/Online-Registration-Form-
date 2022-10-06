@@ -27,6 +27,7 @@ border-radius: 8px;
 .inner {
 list-style-type: none;
 display: flex;
+font-size: 20px;
 }
 
 .contact li,
@@ -85,7 +86,6 @@ font-weight: bold;
 
 form li + li {
   margin-top: 1em;
-  font-size: 16px;
   margin: auto;
   padding: 15px;
   width: 100%;
@@ -105,9 +105,13 @@ input[type=tel],
 input[type=number],
 #state {
 width: 100%;
-height: 45px; 
+height: 45px;
 box-sizing: border-box;
 background-color: #D3D3D3;
+}
+
+#state {
+border-radius: 8px;
 }
 
  label[for=html_news],
@@ -132,6 +136,7 @@ width: 100%;
 
 label [for=zip] {
   width: 105px;
+  padding-right: 150px;
 }
 
 input,
@@ -181,7 +186,12 @@ margin-bottom: 10px;
 
 /*media queries*/
 
-@media screens and (max-width: 768px) {
+@media screens and (min-width: 768px) {
+
+  .container {
+    max-width: 1000px;
+    min-height: calc(100vh - 18.889px); 
+  }
 
   form,
   div {
