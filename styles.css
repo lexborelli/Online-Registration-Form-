@@ -107,6 +107,7 @@ input[type=number],
 width: 100%;
 height: 45px;
 box-sizing: border-box;
+border-radius: 8px;
 background-color: #D3D3D3;
 }
 
@@ -120,7 +121,7 @@ color: #8A97A0
  label[for=javascript_news],
  label[for=html_format],
  label[for=plain_text],
- label[for=hear]{
+ label[for=hear] {
 width: 100%;
 padding: 15px;
 margin-top: 15px;
