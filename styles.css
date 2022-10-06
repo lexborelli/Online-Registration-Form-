@@ -90,6 +90,11 @@ form li + li {
   background-color: white;
 }
 
+li:first-child {
+padding: 15px;
+margin-bottom: 20px;
+}
+
 input[type=text],
 input[type=email],
 input[type=tel],
@@ -98,7 +103,6 @@ input[type=number],
 width: 100%;
 box-sizing: border-box;
 background-color: #D3D3D3;
-padding: 12px 20px;
 }
 
  label[for=html_news],
