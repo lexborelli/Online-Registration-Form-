@@ -122,6 +122,9 @@ color: #8A97A0
  label[for=plain_text],
  label[for=hear]{
 width: 100%;
+padding: 15px;
+margin-top: 15px;
+margin-bottom: 15px;
 }
 
 .topics {
