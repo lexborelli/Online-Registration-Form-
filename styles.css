@@ -181,6 +181,13 @@ legend {
 margin-bottom: 10px;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
 
@@ -190,7 +197,7 @@ margin-bottom: 10px;
 
   .container {
     max-width: 1000px;
-    min-height: calc(100vh - 18.889px); 
+    min-height: calc(100vh - 18.889px);
   }
 
   form,
