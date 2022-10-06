@@ -11,6 +11,7 @@ box-sizing: border-box;
 form {
 margin: 10px auto;
 max-width: 100%;
+min-width: 85%;
 height: 100vh;
 padding: 10px auto;
 border-radius: 8px;
