@@ -11,18 +11,22 @@ box-sizing: border-box;
 form {
 margin: 10px auto;
 max-width: 100%;
+height: 100vh;
 padding: 10px auto;
 border-radius: 8px;
 }
 
 .contact {
+  display: flex;
+  flex-direction: column;
   padding: 15px;
   margin-bottom: 20px;
 }
 
-.contact,
+ form .contact,
 .inner {
 list-style-type: none;
+display: flex;
 }
 
 .contact li,
@@ -101,6 +105,7 @@ input[type=tel],
 input[type=number],
 #state {
 width: 100%;
+height: 45px; 
 box-sizing: border-box;
 background-color: #D3D3D3;
 }
@@ -127,11 +132,6 @@ width: 100%;
 
 label [for=zip] {
   width: 105px;
-}
-
-.contact {
-display: flex;
-flex-direction: column;
 }
 
 input,
