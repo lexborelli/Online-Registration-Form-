@@ -200,6 +200,10 @@ footer {
     max-width: 100%;
   }
 
+  body {
+    width: 100%; 
+  }
+
   form,
   div {
     display: flex;
