@@ -41,7 +41,7 @@ font-size: 20px;
 
 header {
 margin-left: 0;
-margin-right: 0; 
+margin-right: 0;
 text-transform: capitalize;
 text-align: center;
 color: white;
@@ -85,6 +85,11 @@ h2 {
   padding-top: 15px;
   text-align: right;
   font-weight: bold;
+}
+
+h3 {
+  padding-top: 15px;
+  padding: 15px; 
 }
 
 form li + li {
@@ -142,8 +147,6 @@ textarea {
 font: 1em sans-serif;
 width: 100%;
 padding: 15px;
-margin-top: 15px;
-margin-bottom: 15px;
 border: 1px solid #999;
 border-radius: 5px;
 }
@@ -191,6 +194,10 @@ footer {
   justify-content: center;
   align-items: center;
   color: #D3D3D3;
+}
+
+.box {
+  margin-block: 15px;
 }
 
 
