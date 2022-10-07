@@ -40,7 +40,8 @@ font-size: 20px;
 }
 
 header {
-margin: auto;
+margin-left: 0;
+margin-right: 0; 
 text-transform: capitalize;
 text-align: center;
 color: white;
@@ -71,17 +72,19 @@ h1 {
 }
 
 hr.solid {
-border-top: 5px solid #000000;
+  width: 100%;
+  border-top: 5px solid #000000;
 }
 
 hr.thin {
-border-top: 3px solid #000000;
+  width: 100%;
+  border-top: 3px solid #000000;
 }
 
 h2 {
-padding-top: 15px;
-text-align: right;
-font-weight: bold;
+  padding-top: 15px;
+  text-align: right;
+  font-weight: bold;
 }
 
 form li + li {
@@ -151,6 +154,7 @@ border-color: #000080;
 }
 
 textarea {
+  align-content: center;
   vertical-align: top;
   height: 5em;
   margin-bottom: 40px;
@@ -201,7 +205,7 @@ footer {
   }
 
   body {
-    width: 100%; 
+    width: 100%;
   }
 
   form,
