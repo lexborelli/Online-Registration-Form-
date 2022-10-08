@@ -40,8 +40,6 @@ font-size: 20px;
 }
 
 header {
-margin-left: 0;
-margin-right: 0;
 text-transform: capitalize;
 text-align: center;
 color: white;
@@ -49,7 +47,12 @@ background: #36454f;
 padding: 15px;
 font-size: 2rem;
 font-weight: bold;
-max-width: 100%;
+width: 100%;
+}
+
+#header {
+  margin: 0 auto;
+  width: 1000px; 
 }
 
 section {
@@ -88,6 +91,7 @@ h2 {
 }
 
 h3 {
+  color: #8A97A0;
   font-weight: normal;
   padding-top: 15px;
 }
@@ -103,8 +107,9 @@ form li + li {
 }
 
 li:first-child {
-padding: 15px;
-margin-bottom: 20px;
+  color: #8A97A0;
+  padding: 15px;
+  margin-bottom: 20px;
 }
 
 input[type=text],
@@ -125,10 +130,11 @@ background-color: #D3D3D3;
  label[for=html_format],
  label[for=plain_text],
  label[for=hear] {
-width: 100%;
-padding: 15px;
-margin-top: 15px;
-margin-bottom: 15px;
+  color: #8A97A0;
+  width: 100%;
+  padding: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .topics {
@@ -160,7 +166,6 @@ textarea {
   align-content: center;
   vertical-align: top;
   height: 5em;
-  margin
   margin-bottom: 40px;
 }
 
@@ -199,6 +204,10 @@ footer {
 
 .box {
   margin-block: 15px;
+}
+
+p {
+  color: #8A97A0;
 }
 
 
