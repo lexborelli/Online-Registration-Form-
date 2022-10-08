@@ -170,7 +170,7 @@ textarea {
   align-content: center;
   vertical-align: top;
   height: 5em;
-  margin: 1em 0 1.5em 0; 
+  margin: 1em 0 1.5em 0;
 }
 
 .button {
@@ -188,6 +188,7 @@ button {
 }
 
 fieldset {
+background-color: #93ccea; 
 margin-bottom: 30px;
 border: none;
 }
