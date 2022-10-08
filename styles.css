@@ -12,7 +12,7 @@ form {
 margin: 10px auto;
 max-width: 100%;
 min-width: 85%;
-padding: 10px auto;
+padding: 10px;
 border-radius: 8px;
 }
 
@@ -97,7 +97,7 @@ h2 {
 }
 
 h3 {
-  color: ##1b1b1b;
+  color: #1b1b1b;
   font-weight: normal;
   padding-top: 15px;
 }
@@ -144,6 +144,7 @@ background-color: #D3D3D3;
 }
 
 .topics {
+  color: #1b1b1b;
   text-align: center;
 }
 
@@ -169,7 +170,7 @@ border-color: #000080;
 
 li > #city {
   opacity: 0.5;
-  backgroung color: #C0C0C0;
+  color: #C0C0C0;
 }
 
 #city:hover {
@@ -221,16 +222,13 @@ footer {
   margin-block: 15px;
 }
 
-p {
-  color: #8A97A0;
-}
 
 
 
 
 /*media queries*/
 
-@media screens and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
   .container {
     max-width: 100%;
@@ -259,7 +257,7 @@ p {
   }
 
   .topics {
-    text-align: center;
+  text-align: center;
   }
 
 label {
