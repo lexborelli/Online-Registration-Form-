@@ -36,8 +36,9 @@ font-size: 20px;
 }
 
 .inner {
-  background-color: #93ccea;
+  background: linear-gradient(45deg, #bcd4e6, #36454f);
   padding: 20px;
+  border-radius: 10px;
 }
 
 header {
@@ -172,7 +173,7 @@ li > #city {
 }
 
 #city:hover {
-  opacity: 1.0; 
+  opacity: 1.0;
 }
 
 textarea {
