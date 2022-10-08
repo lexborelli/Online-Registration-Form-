@@ -242,6 +242,12 @@ footer {
     width: 100%;
   }
 
+  form .contact,
+ .inner {
+ list-style-type: none;
+ display: flex;
+}
+
   form,
   div {
     display: flex;
@@ -280,13 +286,21 @@ textarea#hear {
 }
 
 @media screen and (max-width: 1034px) {
+
   .container {
     max-width: 100%;
   }
 
-  body {
-    width: 100%;
-  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+}
+
+form .contact,
+.inner {
+  list-style-type: none;
+  display: flex;
+}
 
   form,
   div {
