@@ -36,6 +36,7 @@ font-size: 20px;
 }
 
 .inner {
+  background-color: #93ccea;
   padding: 20px;
 }
 
@@ -165,6 +166,15 @@ textarea:focus {
 border-color: #000080;
 }
 
+li > #city {
+  opacity: 0.5;
+  backgroung color: #C0C0C0;
+}
+
+#city:hover {
+  opacity: 1.0; 
+}
+
 textarea {
   width: 100%;
   align-content: center;
@@ -188,7 +198,6 @@ button {
 }
 
 fieldset {
-background-color: #93ccea; 
 margin-bottom: 30px;
 border: none;
 }
