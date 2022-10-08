@@ -134,7 +134,8 @@ background-color: #D3D3D3;
  label[for=css_news],
  label[for=javascript_news],
  label[for=html_format],
- label[for=plain_text] {
+ label[for=plain_text],
+ label[for=hear] {
   color: whitesmoke;
   width: 100%;
   padding: 15px;
@@ -142,12 +143,8 @@ background-color: #D3D3D3;
   margin-bottom: 15px;
 }
 
-label[for=hear] {
-  color: #1b1b1b;
-  width: 100%;
-  padding: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+div > label[for=hear] {
+color: #1b1b1b;
 }
 
 .topics {
