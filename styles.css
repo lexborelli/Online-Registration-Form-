@@ -45,10 +45,10 @@ text-align: center;
 color: white;
 background: #36454f;
 padding: 0;
-margin: 0;
+margin: 0 auto;
 font-size: 2rem;
 font-weight: bold;
-width: 100%;
+width: 100vw;
 }
 
 #header {
@@ -145,8 +145,7 @@ background-color: #D3D3D3;
 
 
 label [for=zip] {
-  width: 105px;
-  padding-right: 150px;
+  width: 50%;
 }
 
 input [type=radio],
@@ -165,7 +164,7 @@ border-color: #000080;
 }
 
 textarea {
-  width: 100: 
+  width: 100:
   align-content: center;
   vertical-align: top;
   height: 5em;
@@ -218,7 +217,7 @@ p {
 
 /*media queries*/
 
-@media screens and (max-width: 768px) {
+@media screens and (min-width: 768px) {
 
   .container {
     max-width: 100%;
@@ -251,13 +250,12 @@ p {
   }
 
 label {
-  width: 70%;
+  width: 100%;
   text-align: left;
 }
 
-
-input[type=number] {
-  max-width: 70%;
+label [for=zip] {
+  width: 50%;
 }
 textarea#hear {
   width: 100%;
