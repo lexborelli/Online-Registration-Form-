@@ -54,7 +54,7 @@ width: 100%;
 #header {
   text-align: center;
   margin: 0 auto;
-  width: 110%;
+  width: 100%;
 }
 
 section {
@@ -165,6 +165,7 @@ border-color: #000080;
 }
 
 textarea {
+  width: 100: 
   align-content: center;
   vertical-align: top;
   height: 5em;
