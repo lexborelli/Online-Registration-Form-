@@ -243,6 +243,12 @@ footer {
     width: 100%;
   }
 
+  form {
+    display: flex;
+    flex-direction: column;
+
+  }
+
   form .contact,
  .inner {
  list-style-type: none;
