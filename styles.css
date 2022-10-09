@@ -253,10 +253,14 @@ footer {
   form,
   div {
     display: flex;
+    align-items: center;
   }
 
-  div {
-    align-items: center;
+
+  header,
+  #header {
+margin: 0 auto;
+align-items: center;
   }
 
 
