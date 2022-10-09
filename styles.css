@@ -261,13 +261,14 @@ form {
 
 .contact {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .inner,
 .topics {
 flex-direction: column;
 align-content: center;
+text-align: right;
 }
 
 
@@ -276,6 +277,10 @@ align-content: center;
 margin: 0 auto;
 align-content: center;
 text-align: center;
+  }
+
+  li > label {
+    float: left;
   }
 
 
