@@ -39,7 +39,7 @@ font-size: 20px;
   background: linear-gradient(45deg, #bcd4e6, #36454f);
   padding: 20px;
   border-radius: 10px;
-  margin-bottom: 15px; 
+  margin-bottom: 15px;
 }
 
 header {
@@ -153,7 +153,6 @@ color: #1b1b1b;
   text-align: center;
 }
 
-
 label [for=zip] {
   width: 50%;
 }
@@ -233,7 +232,7 @@ footer {
 
 /*media queries*/
 
-@media screens and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
   .container {
     max-width: 100%;
@@ -277,7 +276,7 @@ label {
 }
 
 label [for=zip] {
-  width: 50%;
+  width: 25%;
 }
 textarea#hear {
   width: 100%;
