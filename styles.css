@@ -246,6 +246,7 @@ footer {
 
 form {
   display: flex;
+  flex-direction: column;
 }
 
   form .contact,
