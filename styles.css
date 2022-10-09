@@ -281,7 +281,7 @@ text-align: center;
   }
 
   li > label {
-    float: left;
+    flex: 1 1 auto;
   }
 
 
