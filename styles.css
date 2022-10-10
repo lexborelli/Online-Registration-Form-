@@ -106,7 +106,6 @@ h3 {
 
 form li + li {
   margin-top: 1em;
-  margin: auto;
   padding: 15px;
   width: 100%;
   margin-bottom: 20px;
@@ -275,30 +274,27 @@ text-align: left;
 
   header,
   #header {
-margin: 0 auto;
-align-content: center;
-text-align: center;
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
   }
 
-  li > label {
-    flex: 1 1 auto;
-  }
 
 
   input[type=text],
   input[type=email],
   input[type=tel],
   input[type=number],
-  #state {
+  select {
     width: 100%;
+    float: right; 
   }
 
   .topics {
-  text-align: center;
+  text-align: left;
   }
 
 label {
-  width: 100%;
   text-align: left;
 }
 
