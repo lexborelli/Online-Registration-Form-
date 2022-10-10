@@ -287,7 +287,11 @@ text-align: left;
   input[type=number],
   select {
     width: 100%;
-    float: right; 
+  }
+
+  .label {
+ display: flex;
+ flex-direction: row;
   }
 
   .topics {
