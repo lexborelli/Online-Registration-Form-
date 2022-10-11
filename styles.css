@@ -107,7 +107,7 @@ h3 {
 form li + li {
   margin-top: 1em;
   padding: 15px;
-  width: 200px;
+  width: 100%;
   margin-bottom: 20px;
   color: #8A97A0;
   background-color: white;
@@ -115,7 +115,7 @@ form li + li {
 
 li:first-child {
   color: #8A97A0;
-  width: 200px;
+  width: 100%;
   padding: 15px;
   margin-bottom: 20px;
 }
@@ -295,7 +295,11 @@ form {
   }
 
 li < label {
-width: 50%;
+  width: 50%;
+}
+
+li:first-child {
+  width: 50%;
 }
 
   .topics {
