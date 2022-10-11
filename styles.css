@@ -107,7 +107,7 @@ h3 {
 form li + li {
   margin-top: 1em;
   padding: 15px;
-  width: 100%;
+  width: 200px;
   margin-bottom: 20px;
   color: #8A97A0;
   background-color: white;
@@ -115,6 +115,7 @@ form li + li {
 
 li:first-child {
   color: #8A97A0;
+  width: 200px; 
   padding: 15px;
   margin-bottom: 20px;
 }
@@ -124,7 +125,8 @@ input[type=email],
 input[type=tel],
 input[type=number],
 select {
-width: 100%;
+width: 100vw;
+margin-left: 10px;
 height: 45px;
 box-sizing: border-box;
 border-radius: 8px;
@@ -266,11 +268,15 @@ form {
 
 .inner,
 .topics {
-flex-direction: column;
-align-content: center;
-text-align: left;
+  flex-direction: column;
+  align-content: center;
+  text-align: left;
 }
 
+  form li + li {
+flex-basis: 1
+
+  }
 
   header,
   #header {
@@ -278,8 +284,6 @@ text-align: left;
   align-content: center;
   text-align: center;
   }
-
-
 
   input[type=text],
   input[type=email],
