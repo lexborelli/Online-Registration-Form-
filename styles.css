@@ -155,7 +155,7 @@ color: #1b1b1b;
   text-align: center;
 }
 
-label [for=zip] {
+input [for=zip] {
   width: 50%;
 }
 
@@ -318,7 +318,7 @@ label {
   text-align: left;
 }
 
-label [for=zip] {
+input [for=zip] {
   width: 25%;
 }
 textarea#hear {
