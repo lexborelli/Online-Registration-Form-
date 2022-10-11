@@ -295,8 +295,11 @@ form {
  width: 100%;
   }
 
+
+
 li < label {
   width: 50%;
+  justify-content: space-between;
 }
 
 li:first-child {
