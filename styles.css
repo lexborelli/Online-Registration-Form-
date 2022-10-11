@@ -115,7 +115,7 @@ form li + li {
 
 li:first-child {
   color: #8A97A0;
-  width: 200px; 
+  width: 200px;
   padding: 15px;
   margin-bottom: 20px;
 }
@@ -125,7 +125,7 @@ input[type=email],
 input[type=tel],
 input[type=number],
 select {
-width: 100vw;
+width: 100%;
 margin-left: 10px;
 height: 45px;
 box-sizing: border-box;
