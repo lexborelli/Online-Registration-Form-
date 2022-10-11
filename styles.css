@@ -273,11 +273,6 @@ form {
   text-align: left;
 }
 
-  form li + li {
-flex-basis: 1
-
-  }
-
   header,
   #header {
   margin: 0 auto;
@@ -290,13 +285,18 @@ flex-basis: 1
   input[type=tel],
   input[type=number],
   select {
-    width: 100%;
+    width: 50%;
   }
 
   .label {
  display: flex;
  flex-direction: row;
+ width: 100%;
   }
+
+li < label {
+width: 50%;
+}
 
   .topics {
   text-align: left;
