@@ -285,7 +285,7 @@ form {
   input[type=tel],
   input[type=number],
   select {
-    width: 50%;
+    width: 65%;
   }
 
   .label {
