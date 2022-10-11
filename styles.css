@@ -301,6 +301,7 @@ li < label {
 
 li:first-child {
   width: 50%;
+  justify-content: space-between;
 }
 
   .topics {
