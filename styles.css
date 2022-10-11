@@ -300,7 +300,7 @@ li < label {
 }
 
 li:first-child {
-  width: 50%;
+  width: 65%;
   justify-content: space-between;
 }
 
