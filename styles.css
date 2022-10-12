@@ -283,10 +283,13 @@ form {
   input[type=text],
   input[type=email],
   input[type=tel],
-  input[type=number],
   select {
     width: 65%;
   }
+
+  input[type=number] {
+   width: 25%;
+ }
 
   .label {
  display: flex;
@@ -300,14 +303,6 @@ li < input:first-child {
   width: 65%;
 }
 
-li < input:last-child {
-  justify-content: space-between;
-  width: 25%;
-}
-
- li:last-child < input[type=number] {
-  width: 25%;
-}
 
 li < label {
   width: 50%;
