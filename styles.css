@@ -310,7 +310,7 @@ li < label {
 }
 
 li:first-child {
-  width: 65%;
+  width: 100%;
   justify-content: space-between;
 }
 
