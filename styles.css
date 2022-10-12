@@ -312,7 +312,7 @@ li < label {
 }
 
 li:first-child {
-  width: 100%;
+  width: 25%;
   justify-content: space-between;
 }
 
