@@ -325,6 +325,10 @@ li:first-child {
   justify-content: space-between;
 }
 
+li:last-child < label {
+justify-content: flex-start;
+}
+
   .topics {
   text-align: left;
   }
