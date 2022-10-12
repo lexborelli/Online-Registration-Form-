@@ -301,7 +301,7 @@ li < input:first-child {
 
 }
 
-li < input:last-child {
+li < #zip {
   justify-content: space-between;
   width: 25%;
 
