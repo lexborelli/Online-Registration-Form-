@@ -301,6 +301,12 @@ li < input:first-child {
 
 }
 
+li < input:last-child {
+  justify-content: space-between;
+  width: 25%;
+
+}
+
 li < label {
   width: 50%;
 }
@@ -319,8 +325,11 @@ label {
 }
 
 li:last-child {
-  width: 25%;
+  width: 100%;
+  justify-content: space-between;
 }
+
+
 textarea#hear {
   width: 100%;
   padding-bottom: 40px;
