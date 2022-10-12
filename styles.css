@@ -319,7 +319,7 @@ li < input:first-child {
   width: 65%;
 }
 
-li:last-child < input {
+li:last-child < #Zip {
 justify-content: flex-start;
 }
 
