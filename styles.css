@@ -300,8 +300,7 @@ li < input:first-child {
   width: 65%;
 }
 
-li < #zip {
-  justify-content: space-between;
+li < input#zip {
   width: 25%;
 }
 
