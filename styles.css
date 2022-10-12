@@ -300,7 +300,7 @@ li < input:first-child {
   width: 65%;
 }
 
- input #zip {
+ li:last-child < input {
   width: 25%;
 }
 
