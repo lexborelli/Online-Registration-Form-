@@ -340,9 +340,11 @@ label {
 li:last-child {
   width: 100%;
   justify-content: space-between;
-  flex-direction: row;
 }
 
+li:last-child < .label {
+  flex-direcion: row;
+}
 
 textarea#hear {
   width: 100%;
