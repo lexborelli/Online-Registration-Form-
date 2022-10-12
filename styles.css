@@ -300,7 +300,12 @@ li < input:first-child {
   width: 65%;
 }
 
- li:last-child < input {
+li < input:last-child {
+  justify-content: space-between;
+  width: 25%;
+}
+
+ li:last-child < input[type=number] {
   width: 25%;
 }
 
