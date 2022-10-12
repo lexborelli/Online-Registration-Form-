@@ -319,6 +319,10 @@ li < input:first-child {
   width: 65%;
 }
 
+li:last-child < input {
+justify-content: flex-start;
+}
+
 
 li < label {
   width: 50%;
