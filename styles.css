@@ -298,13 +298,11 @@ form {
 li < input:first-child {
   justify-content: space-between;
   width: 65%;
-
 }
 
 li < #zip {
   justify-content: space-between;
   width: 25%;
-
 }
 
 li < label {
@@ -312,7 +310,7 @@ li < label {
 }
 
 li:first-child {
-  width: 25%;
+  width: 65%;
   justify-content: space-between;
 }
 
