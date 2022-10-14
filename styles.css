@@ -313,10 +313,6 @@ form {
     width: 65%;
   }
 
-  input[type=number] {
-   width: 25%;
- }
-
   .label {
  display: flex;
  flex-direction: row;
@@ -352,7 +348,7 @@ label {
 }
 
 li:last-child {
-  width: 100%;
+  width: 75%;
   justify-content: space-between;
   flex-direction: row;
 }
