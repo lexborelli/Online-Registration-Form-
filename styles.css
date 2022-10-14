@@ -154,6 +154,7 @@ li:last-child {
   width: 100%;
   padding: 15px;
   margin-bottom: 20px;
+  gap: 145px; 
 }
 
  label[for=html_news],
