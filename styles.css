@@ -144,6 +144,10 @@ input[type=number] {
   background-color: #D3D3D3;
 }
 
+.input-zip {
+  flex-basis: 100%;
+}
+
 li:last-child {
   flex-direction: column;
   color: #8A97A0;
