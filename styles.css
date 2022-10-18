@@ -337,6 +337,7 @@ li:first-child {
 
 li:last-child < label {
 justify-content: flex-start;
+flex-basis: 200px;
 }
 
   .topics {
@@ -350,6 +351,7 @@ label {
 li:last-child {
   justify-content: space-between;
   flex-direction: row;
+  width: 100%; 
 }
 
 textarea#hear {
