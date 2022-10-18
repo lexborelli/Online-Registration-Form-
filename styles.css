@@ -115,6 +115,10 @@ form li + li {
   background-color: white;
 }
 
+li < label {
+  flex-basis: 200px;
+}
+
 li:first-child {
   color: #8A97A0;
   width: 100%;
@@ -144,9 +148,6 @@ input[type=number] {
   background-color: #D3D3D3;
 }
 
-.input-zip {
-  flex-basis: 100%;
-}
 
 li:last-child {
   flex-direction: column;
@@ -311,25 +312,25 @@ form {
   input[type=email],
   input[type=tel],
   select {
-    width: 65%;
+    width: 100%;
+  }
+
+  input[type=number] {
+    width: 25%;
   }
 
   .label {
  display: flex;
  flex-direction: row;
  justify-content: space-between;
- width: 100%;
+ flex-basis: 100%;
   }
 
 li < input:first-child {
   justify-content: space-between;
-  width: 65%;
+  width: 100%;
 }
 
-
-li < label {
-  width: 50%;
-}
 
 li:first-child {
   width: 100%;
@@ -338,7 +339,6 @@ li:first-child {
 
 li:last-child < label {
 justify-content: flex-start;
-width: 50%;
 }
 
   .topics {
@@ -350,11 +350,9 @@ label {
 }
 
 li:last-child {
-  width: 75%;
   justify-content: space-between;
   flex-direction: row;
 }
-
 
 textarea#hear {
   width: 100%;
