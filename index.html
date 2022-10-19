@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width", initial-scale=1.0>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -55,8 +55,8 @@
     </li>
     <li class="label">
       <label for="state">State</label>
-      <select id="state" name="user_state" required>
-      <option value="Choose State">Choose State</option>
+      <select id="state" name="user_state">
+      <option value="" disabled selected>Choose State</option>
       <option value="Alabama">Alabama</option>
       <option value="Alaska">Alaska</option>
       <option value="Arizona">Arizona</option>
@@ -113,7 +113,7 @@
     </li>
     <li class="label">
       <label for="zip">Zip Code:</label>
-      <div class="input-zip"><input type="text" id=zip name="user_zip" placeholder="11234" required></div>
+      <input type="text" id=zip name="user_zip" placeholder="11234" required>
     </li>
 </ul>
 </fieldset>

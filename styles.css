@@ -171,17 +171,15 @@ border-radius: 5px;
 }
 
 input:focus,
-textarea:focus {
+textarea:focus,
+select:focus {
 border-color: #000080;
 }
 
-li > #city {
-  opacity: 0.5;
-  color: #C0C0C0;
-}
-
-#city:hover {
-  opacity: 1.0;
+input,
+textarea,
+select {
+  transition: border-color 1s ease;
 }
 
 textarea {
@@ -290,7 +288,8 @@ form {
   text-align: center;
   }
 
-  li > input {
+  li > input,
+  li > select {
     margin-left: 10px;
   }
 
